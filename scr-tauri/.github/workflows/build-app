@@ -1,0 +1,30 @@
+{
+  "build": {
+    "distDir": "../src",
+    "devPath": "../src"
+  },
+  "package": {
+    "version": "1.0.0",
+    "productName": "TM-Medicore"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "bundle": {
+      "active": true,
+      "identifier": "com.tmmedicore.app",
+      "icon": [],
+      "targets": "all"
+    },
+    "windows": [
+      {
+        "title": "T&M MEDICORE",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}
